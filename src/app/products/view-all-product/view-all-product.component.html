@@ -1,0 +1,60 @@
+<!-- category -->
+<div class="container-fluid">
+  <div class="container d-flex justify-content-between">
+    <div class="item">
+      <a (click)="categorySearch('')">
+        <img src="https://i.postimg.cc/0N8YNsV9/all.webp" alt="">
+        <h6>All products</h6>
+      </a>
+    </div>
+    <div class="item">
+      <a (click)="categorySearch('1')">
+        <img src="https://i.postimg.cc/MHv22NCD/electronics.webp" alt="">
+        <h6>Electronics</h6>
+      </a>
+    </div>
+    <div class="item">
+      <a (click)="categorySearch('2')">
+        <img src="https://i.postimg.cc/W3DLxQL7/fashion.webp" alt="">
+      </a>
+      <h6>Fashion</h6>
+    </div>
+    <div class="item">
+      <a (click)="categorySearch('3')">
+        <img src="https://i.postimg.cc/J4rKnj0f/jwellery.webp" alt="" style="width: 100px;margin-top:15px;">
+        <h6 style="margin-top: 18px;">Jewllery</h6>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Section-->
+<section class="py-5">
+  <div class="container px-4 px-lg-5 mt-5">
+      <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+          <div class="col mb-5" *ngFor="let product of categoryList | searchFilter:searchItem:'productName'">
+              <div class="card h-100">
+                  <!-- Product image-->
+                  <img class="card-img-top" src="{{product.productImg}}" alt="..." style="height: 300px;"/>
+                  <!-- Product details-->
+                  <div class="card-body p-4">
+                      <div class="text-center">
+                          <!-- Product name-->
+                          <h5 class="fw-bolder">{{product.productName}}</h5>
+                          <!-- Product price-->
+                          {{product.price}} Rs
+                      </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="products/view-product/{{product.id}}">View options</a></div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</section>

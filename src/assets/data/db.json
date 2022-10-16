@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Men's Casual Solid Lycra Shirt",
+      "description": "Latest Men’s Half Sleeves Shirt",
+      "categoryId": 2,
+      "price": "2000",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/vHj6n8jy/shirt1.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Malabar Textiles",
+      "warranty": 1
+    },
+    {
+      "id": "2",
+      "productName": "Latest Men's Shirt",
+      "description": "Half Sleeves Shirt (L)",
+      "categoryId": "2",
+      "price": "5000",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/Yq1hvN16/shirt2.jpg",
+      "rating": "4.7",
+      "review": "250",
+      "vendor_name": "Malabar texstyle",
+      "warranty": 2
+    },
+    {
+      "id": 4,
+      "productName": "Women Dress",
+      "categoryId": "2",
+      "description": "Casual dress",
+      "price": 700,
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/MK8GJchv/w1.jpg",
+      "rating": 4.3,
+      "review": 450,
+      "vendor_name": "Chennai Textiles",
+      "warranty": 1
+    },
+    {
+      "id": 5,
+      "productName": "Kids Dress",
+      "categoryId": "2",
+      "description": "girl Dress",
+      "price": 900,
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/Jhtr5jBd/k2.jpg",
+      "rating": 4.8,
+      "review": 530,
+      "vendor_name": "Mumbai Textiles",
+      "warranty": 1
+    },
+    {
+      "id": 7,
+      "productName": "Women Dress",
+      "categoryId": "2",
+      "description": "girl Dress",
+      "price": 900,
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/KYVZq4Pc/w3.jpg",
+      "rating": 4.8,
+      "review": 530,
+      "vendor_name": "Kudumbi Textiles",
+      "warranty": 1
+    },
+    {
+      "id": 8,
+      "productName": "Women Dresses",
+      "description": "girl Dress",
+      "categoryId": "2",
+      "price": 900,
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/hG7FGsmg/w2.jpg",
+      "rating": 4.8,
+      "review": 530,
+      "vendor_name": "Munni Textiles",
+      "warranty": 1
+    },
+    {
+      "id": "9",
+      "productName": "Laptop",
+      "categoryId": "1",
+      "description": "Latest Core Processor",
+      "price": "45000",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/XJwTfvxz/l1.jpg",
+      "rating": "4",
+      "review": "70",
+      "vendor_name": "Lenovo",
+      "warranty": 2
+    },
+    {
+      "id": "11",
+      "productName": "Mi NoteBook Pro Win 11",
+      "description": "⁣16GB RAM + 512GB NVMe SSD, i5 11th Gen + Iris Xe Graphics + MS Office 2021",
+      "categoryId": "1",
+      "price": "45000",
+      "is_available": "yes",
+      "productImg": "https://i.postimg.cc/25kFz1dp/pms-1648710120-69731668.jpg",
+      "rating": "4.5",
+      "review": "250",
+      "vendor_name": "Mi",
+      "warranty": "2"
+    }
+  ]
+}
